@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(45deg, #9c11cb, #04efef, #f9501d);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 30px;
+    
+}
+
+h1 { color: #6314ac; }
+
+.converter {
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease-out;
+    padding: 25px;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #6a11cb, #fc7025);
+    position: relative;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #19cfe3;
+}
+button {
+    background: #aa00ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+button:hover { background: #f0420d; }
+
+.Btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

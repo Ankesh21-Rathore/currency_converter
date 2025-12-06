@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currency Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Hii, It's Currency Converter</h1>
+<div class="converter">
+    <input type="number" id="amount" placeholder="Amount">
+    <select id="from">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="INR">INR</option>
+        <option value="NPR">NPR</option>
+        <option value="JPY">JPY</option>
+        <option value="SLR">SLR</option>
+        <option value="PAK">PAK</option>
+    </select>
+
+    <button class="Btn" id="theme-toggle">
+            <i class="fas fa-palette">➡</i> 
+    </button>
+
+    <select id="to">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="INR">INR</option>
+        <option value="NPR">NPR</option>
+        <option value="JPY">JPY</option>
+        <option value="SLR">SLR</option>
+        <option value="PAK">PAK</option>
+    </select>
+    <button class="Btn" id="convertBtn">Convert</button>
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
