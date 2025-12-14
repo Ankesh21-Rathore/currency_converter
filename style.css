@@ -1,35 +1,40 @@
 body {
-    background: linear-gradient(45deg, #9c11cb, #04efef, #f9501d);
+    background: white;
     display: flex;
+    font-family: Arial;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-    padding: 30px;
     
 }
 
-h1 { color: #6314ac; }
+h1 { color: #f720d7; }
 
 .converter {
-    border-radius: 10px;
+    background: white;
+    border-radius: 15px;
     animation: fadeIn 0.5s ease-out;
-    padding: 25px;
+    padding: 30px;
     margin-bottom: 20px;
-    background: linear-gradient(45deg, #6a11cb, #fc7025);
+    border-radius: 15px;
     position: relative;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 10px 20px rgba(178, 10, 239, 0.2);
 }
 
 input, select, button {
+    width: 100%;
     padding: 10px;
-    margin: 10px 5px;
+    margin: 8px 0;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #19cfe3;
 }
 button {
-    background: #aa00ff;
+    background: #1739d0;
     color: white;
     border: none;
     cursor: pointer;
